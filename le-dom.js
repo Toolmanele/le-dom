@@ -50,9 +50,9 @@ function setStyles(el,stylesObj){
 // 一种是直接的元素
 // 一种是 selector 都可以用
 function getElement(selector){
-  if(typeof selector === 'string')){
+  if(typeof selector === 'string'){
     return $(selector)
-  }else if(selector instanceof Element)){
+  }else if(selector instanceof Element){
     return selector
   }
 }
