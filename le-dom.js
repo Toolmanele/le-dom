@@ -2,7 +2,8 @@
 // addEventListener/removeEventListener 太长了 , on off 替换
 EventTarget.prototype.on = EventTarget.prototype.addEventListener
 EventTarget.prototype.off = EventTarget.prototype.removeEventListener
-
+// 简写 document
+var doc = document
 // 模拟 Jquery 使用 $
 // 最简易的选择器
 function $() {
